@@ -24,7 +24,8 @@ if not os.path.exists("Lyrics"):
     os.mkdir("Lyrics")
     os.chdir(a+"Lyrics")
     database_songs=shelve.open("Lyrics_database")
-    arg=open("About","w")
+    config=shelve.open("Config_data")
+    arg=open("About.txt","w")
     arg.write("Dont delete this folder..Deleting this folder will delete all the offline Lyrics..")
     arg.close()
     config['bg']="white"

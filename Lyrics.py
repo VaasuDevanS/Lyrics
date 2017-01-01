@@ -61,7 +61,7 @@ def main():
         
         if result:
             import webbrowser          #For opening The default Browser
-            webbrowser.open("https://gist.github.com/VaasuDevanS/")
+            webbrowser.open("https://github.com/VaasuDevanS/")
             
     def settings():
         

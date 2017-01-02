@@ -42,7 +42,7 @@ def main():
     app=Tk()
     app.title("Lyrics--"+config['name'])
     app.geometry("300x586+800+30")
-    app.iconbitmap(default="D:\\Program_files\Python\Lyrics\\foo.ico")
+    #app.iconbitmap(default="")  Use the icon i placed in the Repo
     app.resizable(0,0)
     
     frame=Frame(app)
